@@ -1,2 +1,7 @@
-<h1>Steamer</h1>
-<p>Work in progress</p>
+<script>
+	import Header from '$lib/components/Header/Header.svelte';
+	import SearchUser from '$lib/components/SearchUser/SearchUser.svelte';
+</script>
+
+<Header />
+<SearchUser />
