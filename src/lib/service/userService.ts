@@ -1,4 +1,4 @@
-import type { CreateUserDTO } from '$lib/api/dto/createUserDTO';
+import type { CreateUserDTO } from '$lib/api/dto/CreateUserDTO';
 import type { ListUsersResponseDTO } from '$lib/api/dto/ListUsersDTO';
 import { userApi } from '$lib/api/users';
 

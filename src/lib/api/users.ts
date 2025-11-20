@@ -1,5 +1,5 @@
 import { PUBLIC_API_URL } from '$env/static/public';
-import type { CreateUserDTO } from './dto/createUserDTO';
+import type { CreateUserDTO } from './dto/CreateUserDTO';
 
 export interface ApiResponse<T> {
 	status: number;
