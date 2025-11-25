@@ -15,7 +15,9 @@
 			<div class="mb-8 rounded-xl bg-linear-to-r from-[#1b2838] to-[#2a475e] p-6 shadow-2xl">
 				<h1 class="mb-2 text-3xl font-bold text-white">Users found in our database</h1>
 				<div class="inline-block rounded-full bg-[#3e7899] px-4 py-1">
-					<h2 class="text-lg font-semibold text-[#171a21]">Total: {response.data.count}</h2>
+					<h2 class="text-lg font-semibold text-[#171a21]">
+						Total: {response.data.pagination.total}
+					</h2>
 				</div>
 			</div>
 			<div
