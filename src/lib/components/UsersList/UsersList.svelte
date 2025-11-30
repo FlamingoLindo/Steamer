@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { userService } from '$lib/service/userService';
-	const usersPromise = userService.listUsers();
+	import type { PageData } from '../../../routes/$types';
+	export let data: PageData;
+	const { usersPromise } = data;
 </script>
 
 {#await usersPromise}
