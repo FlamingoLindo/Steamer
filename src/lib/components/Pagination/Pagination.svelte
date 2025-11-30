@@ -25,7 +25,7 @@
 	<button
 		onclick={() => handlePageChange(currentPage - 1)}
 		disabled={currentPage === 1}
-		class="rounded border border-[#3e7899] bg-[#2a475e] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#3e7899] disabled:cursor-not-allowed disabled:opacity-50"
+		class="cursor-pointer rounded border border-[#3e7899] bg-[#2a475e] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#3e7899] disabled:cursor-not-allowed disabled:opacity-50"
 	>
 		Previous
 	</button>

@@ -1,13 +1,18 @@
 <script lang="ts">
 	import type { PageData } from '../../../routes/$types';
 	import Pagination from '../Pagination/Pagination.svelte';
+	import { Spinner } from 'flowbite-svelte';
+
 	export let data: PageData;
 </script>
 
 {#await data.usersPromise}
 	<div class="flex items-center justify-center py-12">
-		<div class="rounded-lg bg-[#1b2838] px-8 py-6 shadow-lg">
-			<p class="text-lg text-[#c7d5e0]">Loading users...</p>
+		<div
+			class="flex flex-col items-center justify-center rounded-lg bg-[#1b2838] px-8 py-6 shadow-lg"
+		>
+			<p class="text-lg text-[#c7d5e0]">Loading users</p>
+			<Spinner type="dots" size="8" class="text-white" />
 		</div>
 	</div>
 {:then response}
