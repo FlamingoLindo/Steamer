@@ -13,8 +13,20 @@ class UserApi {
 		this.apiUrl = apiUrl;
 	}
 
-	private async request<T>(endpoint: string, options: RequestInit = {}): Promise<ApiResponse<T>> {
-		const url = `${this.apiUrl}${endpoint}`;
+	private async request<T>(
+		endpoint: string,
+		options: RequestInit = {},
+		queryParams?: Record<string, string | number>
+	): Promise<ApiResponse<T>> {
+		let url = `${this.apiUrl}${endpoint}`;
+
+		if (queryParams) {
+			const params = new URLSearchParams();
+			Object.entries(queryParams).forEach(([key, value]) => {
+				params.append(key, String(value));
+			});
+			url += `?${params.toString()}`;
+		}
 
 		const config: RequestInit = {
 			...options,
@@ -49,8 +61,11 @@ class UserApi {
 		return this.request<T>(endpoint, { method: 'GET' });
 	}
 
-	async listUsers<T>(endpoint: string): Promise<ApiResponse<T>> {
-		return this.request<T>(endpoint, { method: 'GET' });
+	async listUsers<T>(
+		endpoint: string,
+		queryParams?: Record<string, string | number>
+	): Promise<ApiResponse<T>> {
+		return this.request<T>(endpoint, { method: 'GET' }, queryParams);
 	}
 }
 

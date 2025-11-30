@@ -1,62 +1,53 @@
-<!-- <script>
-	// import Icon from './Icon.svelte';
+<script lang="ts">
+	import { goto } from '$app/navigation';
+	import { page } from '$app/state';
 
-	let { rows, perPage, trimmedRows = $bindable() } = $props();
+	let { totalPages }: { totalPages: number } = $props();
 
-	let totalRows = $derived(rows.length);
-	let currentPage = $state(0);
-	let totalPages = $derived(Math.ceil(totalRows / perPage));
-	let start = $derived(currentPage * perPage);
-	let end = $derived(currentPage === totalPages - 1 ? totalRows - 1 : start + perPage - 1);
+	let currentPage = $derived(Number(page.url.searchParams.get('page')) || 1);
 
-	$effect(() => {
-		trimmedRows = rows.slice(start, end + 1);
-	});
+	function handlePageChange(newPage: number) {
+		if (newPage >= 1 && newPage <= totalPages) {
+			goto(`?page=${newPage}`);
+		}
+	}
 
-	$effect(() => {
-		totalRows;
-		currentPage = 0;
-	});
+	function getPageNumbers(): number[] {
+		const pages: number[] = [];
+		for (let i = 1; i <= totalPages; i++) {
+			pages.push(i);
+		}
+		return pages;
+	}
 </script>
 
-{#if totalRows && totalRows > perPage}
-	<div class="pointer-events-auto flex items-center justify-center">
+<div class="my-6 flex items-center justify-center gap-1">
+	<button
+		onclick={() => handlePageChange(currentPage - 1)}
+		disabled={currentPage === 1}
+		class="rounded border border-[#3e7899] bg-[#2a475e] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#3e7899] disabled:cursor-not-allowed disabled:opacity-50"
+	>
+		Previous
+	</button>
+
+	{#each getPageNumbers() as pageNum}
 		<button
-			onclick={() => (currentPage -= 1)}
-			disabled={currentPage === 0}
-			aria-label="left arrow icon"
-			aria-describedby="prev"
-			class="flex"
+			onclick={() => handlePageChange(pageNum)}
+			class={`cursor-pointer rounded px-4 py-2 text-sm font-medium transition-colors ${
+				pageNum === currentPage
+					? 'border border-green-600 bg-green-500 text-white'
+					: 'border border-[#3e7899] bg-[#2a475e] text-white hover:bg-[#3e7899]'
+			}`}
 		>
+			{pageNum}
 		</button>
-		<span id="prev" class="sr-only">Load previous {perPage} rows</span>
+	{/each}
 
-		<p class="mx-4 my-0">{start + 1} - {end + 1} of {totalRows}</p>
-
-		<button
-			onclick={() => (currentPage += 1)}
-			disabled={currentPage === totalPages - 1}
-			aria-label="right arrow icon"
-			aria-describedby="next"
-			class="flex"
-		>
-		</button>
-		<span id="next" class="sr-only">Load next {perPage} rows</span>
-	</div>
-{/if}
-
-<style>
-	.sr-only {
-		position: absolute;
-		clip: rect(1px, 1px, 1px, 1px);
-		padding: 0;
-		border: 0;
-		height: 1px;
-		width: 1px;
-		overflow: hidden;
-	}
-
-	.pointer-events-auto {
-		pointer-events: all;
-	}
-</style> -->
+	<button
+		onclick={() => handlePageChange(currentPage + 1)}
+		disabled={currentPage === totalPages}
+		class="cursor-pointer rounded border border-[#3e7899] bg-[#2a475e] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#3e7899] disabled:cursor-not-allowed disabled:opacity-50"
+	>
+		Next
+	</button>
+</div>

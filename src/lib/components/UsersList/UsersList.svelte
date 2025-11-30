@@ -1,10 +1,10 @@
 <script lang="ts">
 	import type { PageData } from '../../../routes/$types';
+	import Pagination from '../Pagination/Pagination.svelte';
 	export let data: PageData;
-	const { usersPromise } = data;
 </script>
 
-{#await usersPromise}
+{#await data.usersPromise}
 	<div class="flex items-center justify-center py-12">
 		<div class="rounded-lg bg-[#1b2838] px-8 py-6 shadow-lg">
 			<p class="text-lg text-[#c7d5e0]">Loading users...</p>
@@ -54,6 +54,7 @@
 					</div>
 				{/each}
 			</div>
+			<Pagination totalPages={response.data.pagination.total_pages}></Pagination>
 		</div>
 	</div>
 {:catch error}

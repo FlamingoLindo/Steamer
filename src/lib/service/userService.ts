@@ -11,7 +11,8 @@ export const userService = {
 		return userApi.getUser(`users/user/${steam_id}`);
 	},
 
-	async listUsers() {
-		return userApi.listUsers<ListUsersResponseDTO>('users');
+	async listUsers(page?: number) {
+		const queryParams = page ? { page } : undefined;
+		return userApi.listUsers<ListUsersResponseDTO>('users', queryParams);
 	}
 };
