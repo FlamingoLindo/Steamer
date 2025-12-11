@@ -1,5 +1,7 @@
 <script lang="ts">
+	import type { CreationResponse } from '$lib/api/dto/CreateUserDTO';
 	import { userService } from '$lib/service/userService';
+	import { CustomToast } from '$lib/toast/custom.toast';
 	let steam_id: string = '';
 	let errorMessage: string = '';
 	let isLoading: boolean = false;
@@ -23,12 +25,26 @@
 			const addResponse = await userService.addUser({ steam_id });
 			if (addResponse.status === 409) {
 				const getUserResponse = await userService.getUser(steam_id);
+				// TODO got to user profile page
 				console.log(getUserResponse.data);
 				steam_id = '';
 				return getUserResponse.data;
 			}
 			if (addResponse.status === 404) {
 				errorMessage = 'Steam user not found';
+				CustomToast.show({
+					type: 'error',
+					message: 'Steam user not found',
+					position: 'top-right'
+				});
+			}
+			if (addResponse.status === 200) {
+				const userData = addResponse.data as CreationResponse;
+				CustomToast.show({
+					type: 'success',
+					message: `${userData.data.user.username} added successfully!`,
+					position: 'top-right'
+				});
 			}
 			steam_id = '';
 		} catch (error: any) {
