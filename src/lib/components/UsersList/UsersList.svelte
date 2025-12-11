@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import type { PageData } from '../../../routes/$types';
 	import Pagination from '../Pagination/Pagination.svelte';
+	import UsersListSkeleton from '../UsersListSkeleton/UsersListSkeleton.svelte';
 	export let data: PageData;
 
 	onMount(() => {
@@ -18,13 +19,7 @@
 </script>
 
 {#await data.usersPromise}
-	<div class="flex items-center justify-center py-12">
-		<div
-			class="flex flex-col items-center justify-center rounded-lg bg-[#1b2838] px-8 py-6 shadow-lg"
-		>
-			<p class="text-lg text-[#c7d5e0]">Loading users...</p>
-		</div>
-	</div>
+	<UsersListSkeleton />
 {:then response}
 	<div class="flex items-center justify-center py-8">
 		<div class="w-full max-w-5xl px-4 text-center">
