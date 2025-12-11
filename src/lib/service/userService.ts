@@ -1,4 +1,5 @@
 import type { CreateUserDTO } from '$lib/api/dto/CreateUserDTO';
+import type { GetUserResponseDTO } from '$lib/api/dto/GetUserDTO';
 import type { ListUsersResponseDTO } from '$lib/api/dto/ListUsersDTO';
 import { userApi } from '$lib/api/users';
 
@@ -8,7 +9,7 @@ export const userService = {
 	},
 
 	async getUser(steam_id: string) {
-		return userApi.getUser(`users/user/${steam_id}`);
+		return userApi.getUser<GetUserResponseDTO>(`users/user/${steam_id}`);
 	},
 
 	async listUsers(page?: number) {

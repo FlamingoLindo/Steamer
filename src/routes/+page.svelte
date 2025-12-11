@@ -6,4 +6,3 @@
 
 <SearchUser />
 <UsersList {data} />
->
