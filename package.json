@@ -38,6 +38,6 @@
 		"vite": "^7.1.10"
 	},
 	"dependencies": {
-		"flowbite-svelte": "^1.28.3"
+		"svelte-french-toast": "^1.2.0"
 	}
 }
