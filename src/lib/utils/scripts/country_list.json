@@ -1,0 +1,1502 @@
+[
+    {
+        "countrycode": "US",
+        "hasstates": 1,
+        "countryname": "United States",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_United_States.svg"
+    },
+    {
+        "countrycode": "CA",
+        "hasstates": 1,
+        "countryname": "Canada",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Canada.svg"
+    },
+    {
+        "countrycode": "CC",
+        "hasstates": 0,
+        "countryname": "Cocos (Keeling) Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Cocos_(Keeling)_Islands.svg"
+    },
+    {
+        "countrycode": "CD",
+        "hasstates": 0,
+        "countryname": "Congo, the Democratic Republic of the",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Democratic_Republic_of_the_Congo.svg"
+    },
+    {
+        "countrycode": "CF",
+        "hasstates": 1,
+        "countryname": "Central African Republic",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Central_African_Republic.svg"
+    },
+    {
+        "countrycode": "CG",
+        "hasstates": 1,
+        "countryname": "Congo",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Republic_of_the_Congo.svg"
+    },
+    {
+        "countrycode": "CH",
+        "hasstates": 1,
+        "countryname": "Switzerland",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Switzerland.svg"
+    },
+    {
+        "countrycode": "CI",
+        "hasstates": 1,
+        "countryname": "Cote D'ivoire (Ivory Coast)",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Ivory_Coast.svg"
+    },
+    {
+        "countrycode": "CK",
+        "hasstates": 0,
+        "countryname": "Cook Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Cook_Islands.svg"
+    },
+    {
+        "countrycode": "CL",
+        "hasstates": 1,
+        "countryname": "Chile",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Chile.svg"
+    },
+    {
+        "countrycode": "CM",
+        "hasstates": 1,
+        "countryname": "Cameroon",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Cameroon.svg"
+    },
+    {
+        "countrycode": "CN",
+        "hasstates": 1,
+        "countryname": "China",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_China.svg"
+    },
+    {
+        "countrycode": "CO",
+        "hasstates": 1,
+        "countryname": "Colombia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Colombia.svg"
+    },
+    {
+        "countrycode": "CR",
+        "hasstates": 1,
+        "countryname": "Costa Rica",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Costa_Rica.svg"
+    },
+    {
+        "countrycode": "CU",
+        "hasstates": 1,
+        "countryname": "Cuba",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Cuba.svg"
+    },
+    {
+        "countrycode": "CV",
+        "hasstates": 1,
+        "countryname": "Cape Verde",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Cape_Verde.svg"
+    },
+    {
+        "countrycode": "CW",
+        "hasstates": 0,
+        "countryname": "Curacao",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Cura%C3%A7ao.svg"
+    },
+    {
+        "countrycode": "CX",
+        "hasstates": 0,
+        "countryname": "Christmas Island",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Christmas_Island.svg"
+    },
+    {
+        "countrycode": "CY",
+        "hasstates": 1,
+        "countryname": "Cyprus",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Cyprus.svg"
+    },
+    {
+        "countrycode": "CZ",
+        "hasstates": 1,
+        "countryname": "Czech Republic",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Czech_Republic.svg"
+    },
+    {
+        "countrycode": "DE",
+        "hasstates": 1,
+        "countryname": "Germany",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Germany.svg"
+    },
+    {
+        "countrycode": "DJ",
+        "hasstates": 1,
+        "countryname": "Djibouti",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Djibouti.svg"
+    },
+    {
+        "countrycode": "DK",
+        "hasstates": 1,
+        "countryname": "Denmark",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Denmark.svg"
+    },
+    {
+        "countrycode": "DM",
+        "hasstates": 1,
+        "countryname": "Dominica",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Dominica.svg"
+    },
+    {
+        "countrycode": "DO",
+        "hasstates": 1,
+        "countryname": "Dominican Republic",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Dominican_Republic.svg"
+    },
+    {
+        "countrycode": "DZ",
+        "hasstates": 1,
+        "countryname": "Algeria",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Algeria.svg"
+    },
+    {
+        "countrycode": "EC",
+        "hasstates": 1,
+        "countryname": "Ecuador",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Ecuador.svg"
+    },
+    {
+        "countrycode": "EE",
+        "hasstates": 1,
+        "countryname": "Estonia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Estonia.svg"
+    },
+    {
+        "countrycode": "EG",
+        "hasstates": 1,
+        "countryname": "Egypt",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Egypt.svg"
+    },
+    {
+        "countrycode": "EH",
+        "hasstates": 0,
+        "countryname": "Western Sahara",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg"
+    },
+    {
+        "countrycode": "ER",
+        "hasstates": 0,
+        "countryname": "Eritrea",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Eritrea.svg"
+    },
+    {
+        "countrycode": "ES",
+        "hasstates": 1,
+        "countryname": "Spain",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Spain.svg"
+    },
+    {
+        "countrycode": "ET",
+        "hasstates": 1,
+        "countryname": "Ethiopia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Ethiopia.svg"
+    },
+    {
+        "countrycode": "FI",
+        "hasstates": 1,
+        "countryname": "Finland",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Finland.svg"
+    },
+    {
+        "countrycode": "FJ",
+        "hasstates": 1,
+        "countryname": "Fiji",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Fiji.svg"
+    },
+    {
+        "countrycode": "FK",
+        "hasstates": 0,
+        "countryname": "Falkland Islands (Malvinas)",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Falkland_Islands.svg"
+    },
+    {
+        "countrycode": "FM",
+        "hasstates": 1,
+        "countryname": "Micronesia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Federated_States_of_Micronesia.svg"
+    },
+    {
+        "countrycode": "FO",
+        "hasstates": 0,
+        "countryname": "Faroe Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Faroe_Islands.svg"
+    },
+    {
+        "countrycode": "FR",
+        "hasstates": 1,
+        "countryname": "France",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_France.svg"
+    },
+    {
+        "countrycode": "GA",
+        "hasstates": 1,
+        "countryname": "Gabon",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Gabon.svg"
+    },
+    {
+        "countrycode": "GB",
+        "hasstates": 1,
+        "countryname": "United Kingdom (Great Britain)",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_United_Kingdom.svg"
+    },
+    {
+        "countrycode": "GD",
+        "hasstates": 1,
+        "countryname": "Grenada",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Grenada.svg"
+    },
+    {
+        "countrycode": "GE",
+        "hasstates": 1,
+        "countryname": "Georgia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Georgia.svg"
+    },
+    {
+        "countrycode": "GF",
+        "hasstates": 0,
+        "countryname": "French Guiana",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_French_Guiana.svg"
+    },
+    {
+        "countrycode": "GG",
+        "hasstates": 0,
+        "countryname": "Guernsey",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Guernsey.svg"
+    },
+    {
+        "countrycode": "GH",
+        "hasstates": 1,
+        "countryname": "Ghana",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Ghana.svg"
+    },
+    {
+        "countrycode": "GI",
+        "hasstates": 0,
+        "countryname": "Gibraltar",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Gibraltar.svg"
+    },
+    {
+        "countrycode": "GL",
+        "hasstates": 1,
+        "countryname": "Greenland",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Greenland.svg"
+    },
+    {
+        "countrycode": "GM",
+        "hasstates": 1,
+        "countryname": "Gambia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_The_Gambia.svg"
+    },
+    {
+        "countrycode": "GN",
+        "hasstates": 1,
+        "countryname": "Guinea",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Guinea.svg"
+    },
+    {
+        "countrycode": "GP",
+        "hasstates": 0,
+        "countryname": "Guadeloupe",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Guadeloupe.svg"
+    },
+    {
+        "countrycode": "GQ",
+        "hasstates": 1,
+        "countryname": "Equatorial Guinea",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Equatorial_Guinea.svg"
+    },
+    {
+        "countrycode": "GR",
+        "hasstates": 1,
+        "countryname": "Greece",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Greece.svg"
+    },
+    {
+        "countrycode": "GS",
+        "hasstates": 0,
+        "countryname": "South Georgia and the South Sandwich Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg"
+    },
+    {
+        "countrycode": "GT",
+        "hasstates": 1,
+        "countryname": "Guatemala",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Guatemala.svg"
+    },
+    {
+        "countrycode": "GU",
+        "hasstates": 0,
+        "countryname": "Guam",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Guam.svg"
+    },
+    {
+        "countrycode": "GW",
+        "hasstates": 1,
+        "countryname": "Guinea-Bissau",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Guinea-Bissau.svg"
+    },
+    {
+        "countrycode": "GY",
+        "hasstates": 1,
+        "countryname": "Guyana",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Guyana.svg"
+    },
+    {
+        "countrycode": "HK",
+        "hasstates": 0,
+        "countryname": "Hong Kong",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Hong_Kong.svg"
+    },
+    {
+        "countrycode": "HM",
+        "hasstates": 0,
+        "countryname": "Heard & McDonald Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Heard_Island_and_McDonald_Islands.svg"
+    },
+    {
+        "countrycode": "HN",
+        "hasstates": 1,
+        "countryname": "Honduras",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Honduras.svg"
+    },
+    {
+        "countrycode": "HR",
+        "hasstates": 1,
+        "countryname": "Croatia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Croatia.svg"
+    },
+    {
+        "countrycode": "HT",
+        "hasstates": 1,
+        "countryname": "Haiti",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Haiti.svg"
+    },
+    {
+        "countrycode": "HU",
+        "hasstates": 1,
+        "countryname": "Hungary",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Hungary.svg"
+    },
+    {
+        "countrycode": "ID",
+        "hasstates": 1,
+        "countryname": "Indonesia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Indonesia.svg"
+    },
+    {
+        "countrycode": "IE",
+        "hasstates": 1,
+        "countryname": "Ireland",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Ireland.svg"
+    },
+    {
+        "countrycode": "IL",
+        "hasstates": 1,
+        "countryname": "Israel",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Israel.svg"
+    },
+    {
+        "countrycode": "IM",
+        "hasstates": 0,
+        "countryname": "Isle of Man",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Isle_of_Man.svg"
+    },
+    {
+        "countrycode": "IN",
+        "hasstates": 1,
+        "countryname": "India",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_India.svg"
+    },
+    {
+        "countrycode": "IO",
+        "hasstates": 0,
+        "countryname": "British Indian Ocean Territory",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_British_Indian_Ocean_Territory.svg"
+    },
+    {
+        "countrycode": "IQ",
+        "hasstates": 1,
+        "countryname": "Iraq",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Iraq.svg"
+    },
+    {
+        "countrycode": "IR",
+        "hasstates": 1,
+        "countryname": "Islamic Republic of Iran",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Iran.svg"
+    },
+    {
+        "countrycode": "IS",
+        "hasstates": 1,
+        "countryname": "Iceland",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Iceland.svg"
+    },
+    {
+        "countrycode": "IT",
+        "hasstates": 1,
+        "countryname": "Italy",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Italy.svg"
+    },
+    {
+        "countrycode": "JE",
+        "hasstates": 0,
+        "countryname": "Jersey",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Jersey.svg"
+    },
+    {
+        "countrycode": "JM",
+        "hasstates": 1,
+        "countryname": "Jamaica",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Jamaica.svg"
+    },
+    {
+        "countrycode": "JO",
+        "hasstates": 1,
+        "countryname": "Jordan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Jordan.svg"
+    },
+    {
+        "countrycode": "JP",
+        "hasstates": 1,
+        "countryname": "Japan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Japan.svg"
+    },
+    {
+        "countrycode": "KE",
+        "hasstates": 1,
+        "countryname": "Kenya",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Kenya.svg"
+    },
+    {
+        "countrycode": "KG",
+        "hasstates": 1,
+        "countryname": "Kyrgyzstan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Kyrgyzstan.svg"
+    },
+    {
+        "countrycode": "KH",
+        "hasstates": 1,
+        "countryname": "Cambodia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Cambodia.svg"
+    },
+    {
+        "countrycode": "KI",
+        "hasstates": 1,
+        "countryname": "Kiribati",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Kiribati.svg"
+    },
+    {
+        "countrycode": "KM",
+        "hasstates": 1,
+        "countryname": "Comoros",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Comoros.svg"
+    },
+    {
+        "countrycode": "KN",
+        "hasstates": 1,
+        "countryname": "St. Kitts and Nevis",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Saint_Kitts_and_Nevis.svg"
+    },
+    {
+        "countrycode": "KP",
+        "hasstates": 0,
+        "countryname": "Korea, Democratic People's Republic of",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_North_Korea.svg"
+    },
+    {
+        "countrycode": "KR",
+        "hasstates": 1,
+        "countryname": "Korea, Republic of",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_South_Korea.svg"
+    },
+    {
+        "countrycode": "KW",
+        "hasstates": 1,
+        "countryname": "Kuwait",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Kuwait.svg"
+    },
+    {
+        "countrycode": "KY",
+        "hasstates": 1,
+        "countryname": "Cayman Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Cayman_Islands.svg"
+    },
+    {
+        "countrycode": "KZ",
+        "hasstates": 1,
+        "countryname": "Kazakhstan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Kazakhstan.svg"
+    },
+    {
+        "countrycode": "LA",
+        "hasstates": 1,
+        "countryname": "Laos",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Laos.svg"
+    },
+    {
+        "countrycode": "LB",
+        "hasstates": 1,
+        "countryname": "Lebanon",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Lebanon.svg"
+    },
+    {
+        "countrycode": "LC",
+        "hasstates": 1,
+        "countryname": "Saint Lucia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Saint_Lucia.svg"
+    },
+    {
+        "countrycode": "LI",
+        "hasstates": 1,
+        "countryname": "Liechtenstein",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Liechtenstein.svg"
+    },
+    {
+        "countrycode": "LK",
+        "hasstates": 1,
+        "countryname": "Sri Lanka",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Sri_Lanka.svg"
+    },
+    {
+        "countrycode": "LR",
+        "hasstates": 1,
+        "countryname": "Liberia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Liberia.svg"
+    },
+    {
+        "countrycode": "LS",
+        "hasstates": 1,
+        "countryname": "Lesotho",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Lesotho.svg"
+    },
+    {
+        "countrycode": "LT",
+        "hasstates": 1,
+        "countryname": "Lithuania",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Lithuania.svg"
+    },
+    {
+        "countrycode": "LU",
+        "hasstates": 1,
+        "countryname": "Luxembourg",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Luxembourg.svg"
+    },
+    {
+        "countrycode": "LV",
+        "hasstates": 1,
+        "countryname": "Latvia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Latvia.svg"
+    },
+    {
+        "countrycode": "LY",
+        "hasstates": 1,
+        "countryname": "Libya",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Libya.svg"
+    },
+    {
+        "countrycode": "MA",
+        "hasstates": 1,
+        "countryname": "Morocco",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Morocco.svg"
+    },
+    {
+        "countrycode": "MC",
+        "hasstates": 1,
+        "countryname": "Monaco",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Monaco.svg"
+    },
+    {
+        "countrycode": "MD",
+        "hasstates": 1,
+        "countryname": "Moldova, Republic of ",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Moldova.svg"
+    },
+    {
+        "countrycode": "ME",
+        "hasstates": 0,
+        "countryname": "Montenegro",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Montenegro.svg"
+    },
+    {
+        "countrycode": "MF",
+        "hasstates": 0,
+        "countryname": "Saint Martin (French part)",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Saint_Martin.svg"
+    },
+    {
+        "countrycode": "MG",
+        "hasstates": 1,
+        "countryname": "Madagascar",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Madagascar.svg"
+    },
+    {
+        "countrycode": "MH",
+        "hasstates": 0,
+        "countryname": "Marshall Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Marshall_Islands.svg"
+    },
+    {
+        "countrycode": "MK",
+        "hasstates": 0,
+        "countryname": "Macedonia, The Former Yugoslav Republic of",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_North_Macedonia.svg"
+    },
+    {
+        "countrycode": "ML",
+        "hasstates": 1,
+        "countryname": "Mali",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Mali.svg"
+    },
+    {
+        "countrycode": "MM",
+        "hasstates": 1,
+        "countryname": "Myanmar",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Myanmar.svg"
+    },
+    {
+        "countrycode": "MN",
+        "hasstates": 1,
+        "countryname": "Mongolia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Mongolia.svg"
+    },
+    {
+        "countrycode": "MO",
+        "hasstates": 1,
+        "countryname": "Macau",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Macau.svg"
+    },
+    {
+        "countrycode": "MP",
+        "hasstates": 0,
+        "countryname": "Northern Mariana Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Northern_Mariana_Islands.svg"
+    },
+    {
+        "countrycode": "MQ",
+        "hasstates": 0,
+        "countryname": "Martinique",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Martinique.svg"
+    },
+    {
+        "countrycode": "MR",
+        "hasstates": 1,
+        "countryname": "Mauritania",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Mauritania.svg"
+    },
+    {
+        "countrycode": "MS",
+        "hasstates": 1,
+        "countryname": "Monserrat",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Montserrat.svg"
+    },
+    {
+        "countrycode": "MT",
+        "hasstates": 0,
+        "countryname": "Malta",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Malta.svg"
+    },
+    {
+        "countrycode": "MU",
+        "hasstates": 1,
+        "countryname": "Mauritius",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Mauritius.svg"
+    },
+    {
+        "countrycode": "MV",
+        "hasstates": 1,
+        "countryname": "Maldives",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Maldives.svg"
+    },
+    {
+        "countrycode": "MW",
+        "hasstates": 1,
+        "countryname": "Malawi",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Malawi.svg"
+    },
+    {
+        "countrycode": "MX",
+        "hasstates": 1,
+        "countryname": "Mexico",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Mexico.svg"
+    },
+    {
+        "countrycode": "MY",
+        "hasstates": 1,
+        "countryname": "Malaysia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Malaysia.svg"
+    },
+    {
+        "countrycode": "MZ",
+        "hasstates": 1,
+        "countryname": "Mozambique",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Mozambique.svg"
+    },
+    {
+        "countrycode": "NA",
+        "hasstates": 1,
+        "countryname": "Namibia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Namibia.svg"
+    },
+    {
+        "countrycode": "NC",
+        "hasstates": 0,
+        "countryname": "New Caledonia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_New_Caledonia.svg"
+    },
+    {
+        "countrycode": "NE",
+        "hasstates": 1,
+        "countryname": "Niger",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Niger.svg"
+    },
+    {
+        "countrycode": "NF",
+        "hasstates": 0,
+        "countryname": "Norfolk Island",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Norfolk_Island.svg"
+    },
+    {
+        "countrycode": "NG",
+        "hasstates": 1,
+        "countryname": "Nigeria",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Nigeria.svg"
+    },
+    {
+        "countrycode": "NI",
+        "hasstates": 1,
+        "countryname": "Nicaragua",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Nicaragua.svg"
+    },
+    {
+        "countrycode": "NL",
+        "hasstates": 1,
+        "countryname": "Netherlands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Netherlands.svg"
+    },
+    {
+        "countrycode": "NO",
+        "hasstates": 1,
+        "countryname": "Norway",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Norway.svg"
+    },
+    {
+        "countrycode": "NP",
+        "hasstates": 1,
+        "countryname": "Nepal",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg"
+    },
+    {
+        "countrycode": "NR",
+        "hasstates": 1,
+        "countryname": "Nauru",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Nauru.svg"
+    },
+    {
+        "countrycode": "NU",
+        "hasstates": 0,
+        "countryname": "Niue",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Niue.svg"
+    },
+    {
+        "countrycode": "NZ",
+        "hasstates": 1,
+        "countryname": "New Zealand",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_New_Zealand.svg"
+    },
+    {
+        "countrycode": "OM",
+        "hasstates": 1,
+        "countryname": "Oman",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Oman.svg"
+    },
+    {
+        "countrycode": "PA",
+        "hasstates": 1,
+        "countryname": "Panama",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Panama.svg"
+    },
+    {
+        "countrycode": "PE",
+        "hasstates": 1,
+        "countryname": "Peru",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Peru.svg"
+    },
+    {
+        "countrycode": "PF",
+        "hasstates": 0,
+        "countryname": "French Polynesia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_French_Polynesia.svg"
+    },
+    {
+        "countrycode": "PG",
+        "hasstates": 1,
+        "countryname": "Papua New Guinea",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Papua_New_Guinea.svg"
+    },
+    {
+        "countrycode": "PH",
+        "hasstates": 1,
+        "countryname": "Philippines",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Philippines.svg"
+    },
+    {
+        "countrycode": "PK",
+        "hasstates": 1,
+        "countryname": "Pakistan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Pakistan.svg"
+    },
+    {
+        "countrycode": "PL",
+        "hasstates": 1,
+        "countryname": "Poland",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Poland.svg"
+    },
+    {
+        "countrycode": "PM",
+        "hasstates": 0,
+        "countryname": "St. Pierre & Miquelon",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Saint_Pierre_and_Miquelon.svg"
+    },
+    {
+        "countrycode": "PN",
+        "hasstates": 0,
+        "countryname": "Pitcairn",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Pitcairn_Islands.svg"
+    },
+    {
+        "countrycode": "PR",
+        "hasstates": 0,
+        "countryname": "Puerto Rico",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Puerto_Rico.svg"
+    },
+    {
+        "countrycode": "PS",
+        "hasstates": 0,
+        "countryname": "Palestinian Territory, Occupied",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Palestine.svg"
+    },
+    {
+        "countrycode": "PT",
+        "hasstates": 1,
+        "countryname": "Portugal",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Portugal.svg"
+    },
+    {
+        "countrycode": "PW",
+        "hasstates": 0,
+        "countryname": "Palau",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Palau.svg"
+    },
+    {
+        "countrycode": "PY",
+        "hasstates": 1,
+        "countryname": "Paraguay",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Paraguay.svg"
+    },
+    {
+        "countrycode": "QA",
+        "hasstates": 1,
+        "countryname": "Qatar",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Qatar.svg"
+    },
+    {
+        "countrycode": "RE",
+        "hasstates": 0,
+        "countryname": "Reunion",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_R%C3%A9union.svg"
+    },
+    {
+        "countrycode": "RO",
+        "hasstates": 1,
+        "countryname": "Romania",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Romania.svg"
+    },
+    {
+        "countrycode": "RS",
+        "hasstates": 0,
+        "countryname": "Serbia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Serbia.svg"
+    },
+    {
+        "countrycode": "RU",
+        "hasstates": 1,
+        "countryname": "Russian Federation",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Russia.svg"
+    },
+    {
+        "countrycode": "RW",
+        "hasstates": 1,
+        "countryname": "Rwanda",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Rwanda.svg"
+    },
+    {
+        "countrycode": "SA",
+        "hasstates": 1,
+        "countryname": "Saudi Arabia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Saudi_Arabia.svg"
+    },
+    {
+        "countrycode": "SB",
+        "hasstates": 1,
+        "countryname": "Solomon Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Solomon_Islands.svg"
+    },
+    {
+        "countrycode": "SC",
+        "hasstates": 1,
+        "countryname": "Seychelles",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Seychelles.svg"
+    },
+    {
+        "countrycode": "SD",
+        "hasstates": 1,
+        "countryname": "Sudan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Sudan.svg"
+    },
+    {
+        "countrycode": "SE",
+        "hasstates": 1,
+        "countryname": "Sweden",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Sweden.svg"
+    },
+    {
+        "countrycode": "SG",
+        "hasstates": 0,
+        "countryname": "Singapore",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Singapore.svg"
+    },
+    {
+        "countrycode": "SH",
+        "hasstates": 1,
+        "countryname": "St. Helena",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Saint_Helena.svg"
+    },
+    {
+        "countrycode": "SI",
+        "hasstates": 1,
+        "countryname": "Slovenia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Slovenia.svg"
+    },
+    {
+        "countrycode": "SJ",
+        "hasstates": 0,
+        "countryname": "Svalbard & Jan Mayen Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Svalbard.svg"
+    },
+    {
+        "countrycode": "SK",
+        "hasstates": 1,
+        "countryname": "Slovakia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Slovakia.svg"
+    },
+    {
+        "countrycode": "SL",
+        "hasstates": 1,
+        "countryname": "Sierra Leone",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Sierra_Leone.svg"
+    },
+    {
+        "countrycode": "SM",
+        "hasstates": 1,
+        "countryname": "San Marino",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_San_Marino.svg"
+    },
+    {
+        "countrycode": "SN",
+        "hasstates": 1,
+        "countryname": "Senegal",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Senegal.svg"
+    },
+    {
+        "countrycode": "SO",
+        "hasstates": 1,
+        "countryname": "Somalia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Somalia.svg"
+    },
+    {
+        "countrycode": "SR",
+        "hasstates": 1,
+        "countryname": "Suriname",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Suriname.svg"
+    },
+    {
+        "countrycode": "SS",
+        "hasstates": 0,
+        "countryname": "South Sudan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_South_Sudan.svg"
+    },
+    {
+        "countrycode": "ST",
+        "hasstates": 1,
+        "countryname": "Sao Tome & Principe",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg"
+    },
+    {
+        "countrycode": "SV",
+        "hasstates": 1,
+        "countryname": "El Salvador",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_El_Salvador.svg"
+    },
+    {
+        "countrycode": "SX",
+        "hasstates": 0,
+        "countryname": "Sint Maarten (Dutch part)",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Sint_Maarten.svg"
+    },
+    {
+        "countrycode": "SY",
+        "hasstates": 1,
+        "countryname": "Syrian Arab Republic",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Syria.svg"
+    },
+    {
+        "countrycode": "SZ",
+        "hasstates": 1,
+        "countryname": "Swaziland",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Eswatini.svg"
+    },
+    {
+        "countrycode": "TC",
+        "hasstates": 0,
+        "countryname": "Turks & Caicos Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Turks_and_Caicos_Islands.svg"
+    },
+    {
+        "countrycode": "TD",
+        "hasstates": 1,
+        "countryname": "Chad",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Chad.svg"
+    },
+    {
+        "countrycode": "TF",
+        "hasstates": 0,
+        "countryname": "French Southern Territories",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_French_Southern_and_Antarctic_Lands.svg"
+    },
+    {
+        "countrycode": "TG",
+        "hasstates": 1,
+        "countryname": "Togo",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Togo.svg"
+    },
+    {
+        "countrycode": "TH",
+        "hasstates": 1,
+        "countryname": "Thailand",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Thailand.svg"
+    },
+    {
+        "countrycode": "TJ",
+        "hasstates": 1,
+        "countryname": "Tajikistan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Tajikistan.svg"
+    },
+    {
+        "countrycode": "TK",
+        "hasstates": 0,
+        "countryname": "Tokelau",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Tokelau.svg"
+    },
+    {
+        "countrycode": "TL",
+        "hasstates": 0,
+        "countryname": "Timor-Leste",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_East_Timor.svg"
+    },
+    {
+        "countrycode": "TM",
+        "hasstates": 1,
+        "countryname": "Turkmenistan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Turkmenistan.svg"
+    },
+    {
+        "countrycode": "TN",
+        "hasstates": 1,
+        "countryname": "Tunisia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Tunisia.svg"
+    },
+    {
+        "countrycode": "TO",
+        "hasstates": 1,
+        "countryname": "Tonga",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Tonga.svg"
+    },
+    {
+        "countrycode": "TR",
+        "hasstates": 1,
+        "countryname": "Turkey",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Turkey.svg"
+    },
+    {
+        "countrycode": "TT",
+        "hasstates": 1,
+        "countryname": "Trinidad & Tobago",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Trinidad_and_Tobago.svg"
+    },
+    {
+        "countrycode": "TV",
+        "hasstates": 0,
+        "countryname": "Tuvalu",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Tuvalu.svg"
+    },
+    {
+        "countrycode": "TW",
+        "hasstates": 1,
+        "countryname": "Taiwan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Republic_of_China.svg"
+    },
+    {
+        "countrycode": "TZ",
+        "hasstates": 1,
+        "countryname": "Tanzania, United Republic of",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Tanzania.svg"
+    },
+    {
+        "countrycode": "UA",
+        "hasstates": 1,
+        "countryname": "Ukraine",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Ukraine.svg"
+    },
+    {
+        "countrycode": "UG",
+        "hasstates": 1,
+        "countryname": "Uganda",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Uganda.svg"
+    },
+    {
+        "countrycode": "UM",
+        "hasstates": 0,
+        "countryname": "United States Minor Outlying",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_United_States.svg"
+    },
+    {
+        "countrycode": "UY",
+        "hasstates": 1,
+        "countryname": "Uruguay",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Uruguay.svg"
+    },
+    {
+        "countrycode": "UZ",
+        "hasstates": 1,
+        "countryname": "Uzbekistan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Uzbekistan.svg"
+    },
+    {
+        "countrycode": "VA",
+        "hasstates": 0,
+        "countryname": "Vatican City State (Holy See)",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Vatican_City.svg"
+    },
+    {
+        "countrycode": "VC",
+        "hasstates": 1,
+        "countryname": "St. Vincent & the Grenadines",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Saint_Vincent_and_the_Grenadines.svg"
+    },
+    {
+        "countrycode": "VE",
+        "hasstates": 1,
+        "countryname": "Venezuela",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Venezuela.svg"
+    },
+    {
+        "countrycode": "VG",
+        "hasstates": 0,
+        "countryname": "British Virgin Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_British_Virgin_Islands.svg"
+    },
+    {
+        "countrycode": "VI",
+        "hasstates": 0,
+        "countryname": "United States Virgin Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_United_States_Virgin_Islands.svg"
+    },
+    {
+        "countrycode": "VN",
+        "hasstates": 1,
+        "countryname": "Viet Nam",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Vietnam.svg"
+    },
+    {
+        "countrycode": "VU",
+        "hasstates": 1,
+        "countryname": "Vanuatu",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Vanuatu.svg"
+    },
+    {
+        "countrycode": "WF",
+        "hasstates": 0,
+        "countryname": "Wallis & Futuna Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Wallis_and_Futuna.svg"
+    },
+    {
+        "countrycode": "WS",
+        "hasstates": 1,
+        "countryname": "Samoa",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Samoa.svg"
+    },
+    {
+        "countrycode": "XK",
+        "hasstates": 0,
+        "countryname": "Kosovo",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Kosovo.svg"
+    },
+    {
+        "countrycode": "YE",
+        "hasstates": 1,
+        "countryname": "Yemen",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Yemen.svg"
+    },
+    {
+        "countrycode": "YT",
+        "hasstates": 0,
+        "countryname": "Mayotte",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Mayotte.svg"
+    },
+    {
+        "countrycode": "ZA",
+        "hasstates": 1,
+        "countryname": "South Africa",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_South_Africa.svg"
+    },
+    {
+        "countrycode": "ZM",
+        "hasstates": 1,
+        "countryname": "Zambia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Zambia.svg"
+    },
+    {
+        "countrycode": "ZW",
+        "hasstates": 1,
+        "countryname": "Zimbabwe",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Zimbabwe.svg"
+    },
+    {
+        "countrycode": "AD",
+        "hasstates": 1,
+        "countryname": "Andorra",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Andorra.svg"
+    },
+    {
+        "countrycode": "AE",
+        "hasstates": 1,
+        "countryname": "United Arab Emirates",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_United_Arab_Emirates.svg"
+    },
+    {
+        "countrycode": "AF",
+        "hasstates": 1,
+        "countryname": "Afghanistan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Afghanistan.svg"
+    },
+    {
+        "countrycode": "AG",
+        "hasstates": 1,
+        "countryname": "Antigua & Barbuda",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Antigua_and_Barbuda.svg"
+    },
+    {
+        "countrycode": "AI",
+        "hasstates": 0,
+        "countryname": "Anguilla",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Anguilla.svg"
+    },
+    {
+        "countrycode": "AL",
+        "hasstates": 1,
+        "countryname": "Albania",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Albania.svg"
+    },
+    {
+        "countrycode": "AM",
+        "hasstates": 1,
+        "countryname": "Armenia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Armenia.svg"
+    },
+    {
+        "countrycode": "AO",
+        "hasstates": 1,
+        "countryname": "Angola",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Angola.svg"
+    },
+    {
+        "countrycode": "AQ",
+        "hasstates": 0,
+        "countryname": "Antarctica",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Antarctica.svg"
+    },
+    {
+        "countrycode": "AR",
+        "hasstates": 1,
+        "countryname": "Argentina",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Argentina.svg"
+    },
+    {
+        "countrycode": "AS",
+        "hasstates": 0,
+        "countryname": "American Samoa",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_American_Samoa.svg"
+    },
+    {
+        "countrycode": "AT",
+        "hasstates": 1,
+        "countryname": "Austria",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Austria.svg"
+    },
+    {
+        "countrycode": "AU",
+        "hasstates": 1,
+        "countryname": "Australia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Australia.svg"
+    },
+    {
+        "countrycode": "AW",
+        "hasstates": 0,
+        "countryname": "Aruba",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Aruba.svg"
+    },
+    {
+        "countrycode": "AX",
+        "hasstates": 0,
+        "countryname": "Aland Islands",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_%C3%85land.svg"
+    },
+    {
+        "countrycode": "AZ",
+        "hasstates": 1,
+        "countryname": "Azerbaijan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Azerbaijan.svg"
+    },
+    {
+        "countrycode": "BA",
+        "hasstates": 1,
+        "countryname": "Bosnia and Herzegovina",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Bosnia_and_Herzegovina.svg"
+    },
+    {
+        "countrycode": "BB",
+        "hasstates": 1,
+        "countryname": "Barbados",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Barbados.svg"
+    },
+    {
+        "countrycode": "BD",
+        "hasstates": 1,
+        "countryname": "Bangladesh",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Bangladesh.svg"
+    },
+    {
+        "countrycode": "BE",
+        "hasstates": 1,
+        "countryname": "Belgium",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Belgium.svg"
+    },
+    {
+        "countrycode": "BF",
+        "hasstates": 1,
+        "countryname": "Burkina Faso",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Burkina_Faso.svg"
+    },
+    {
+        "countrycode": "BG",
+        "hasstates": 1,
+        "countryname": "Bulgaria",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Bulgaria.svg"
+    },
+    {
+        "countrycode": "BH",
+        "hasstates": 1,
+        "countryname": "Bahrain",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Bahrain.svg"
+    },
+    {
+        "countrycode": "BI",
+        "hasstates": 1,
+        "countryname": "Burundi",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Burundi.svg"
+    },
+    {
+        "countrycode": "BJ",
+        "hasstates": 1,
+        "countryname": "Benin",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Benin.svg"
+    },
+    {
+        "countrycode": "BL",
+        "hasstates": 0,
+        "countryname": "Saint Barthelemy",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Saint_Barth%C3%A9lemy.svg"
+    },
+    {
+        "countrycode": "BM",
+        "hasstates": 1,
+        "countryname": "Bermuda",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Bermuda.svg"
+    },
+    {
+        "countrycode": "BN",
+        "hasstates": 1,
+        "countryname": "Brunei Darussalam",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Brunei.svg"
+    },
+    {
+        "countrycode": "BO",
+        "hasstates": 1,
+        "countryname": "Bolivia",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Bolivia.svg"
+    },
+    {
+        "countrycode": "BQ",
+        "hasstates": 0,
+        "countryname": "Bonaire, Sint Eustatius and Saba",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Caribbean_Netherlands.svg"
+    },
+    {
+        "countrycode": "BR",
+        "hasstates": 1,
+        "countryname": "Brazil",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Brazil.svg"
+    },
+    {
+        "countrycode": "BS",
+        "hasstates": 1,
+        "countryname": "Bahamas",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_the_Bahamas.svg"
+    },
+    {
+        "countrycode": "BT",
+        "hasstates": 1,
+        "countryname": "Bhutan",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Bhutan.svg"
+    },
+    {
+        "countrycode": "BV",
+        "hasstates": 0,
+        "countryname": "Bouvet Island",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Norway.svg"
+    },
+    {
+        "countrycode": "BW",
+        "hasstates": 1,
+        "countryname": "Botswana",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Botswana.svg"
+    },
+    {
+        "countrycode": "BY",
+        "hasstates": 1,
+        "countryname": "Belarus",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Belarus.svg"
+    },
+    {
+        "countrycode": "BZ",
+        "hasstates": 1,
+        "countryname": "Belize",
+        "flag_url": "https://en.wikipedia.org/wiki/Special:FilePath/Flag_of_Belize.svg"
+    }
+]
