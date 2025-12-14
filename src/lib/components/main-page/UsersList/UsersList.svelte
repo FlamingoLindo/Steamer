@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { CustomToast } from '$lib/toast/custom.toast';
 	import { onMount } from 'svelte';
-	import type { PageData } from '../../../routes/$types';
-	import Pagination from '../Pagination/Pagination.svelte';
-	import UsersListSkeleton from '../UsersListSkeleton/UsersListSkeleton.svelte';
+	import type { PageData } from '../../../../routes/$types';
+	import Pagination from '../../shared/Pagination/Pagination.svelte';
+	import UsersListSkeleton from '../../skeletons/UsersListSkeleton/UsersListSkeleton.svelte';
 	export let data: PageData;
 	onMount(() => {
 		CustomToast.showPromise({

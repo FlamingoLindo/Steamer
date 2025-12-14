@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.svg';
-	import Header from '$lib/components/Header/Header.svelte';
+	import Header from '$lib/components/shared/Header/Header.svelte';
 	import { Toaster } from 'svelte-french-toast';
 
 	let { children } = $props();
