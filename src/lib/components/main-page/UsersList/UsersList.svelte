@@ -4,6 +4,7 @@
 	import type { PageData } from '../../../../routes/$types';
 	import Pagination from '../../shared/Pagination/Pagination.svelte';
 	import UsersListSkeleton from '../../skeletons/UsersListSkeleton/UsersListSkeleton.svelte';
+	import CustomError from '$lib/components/CustomError/CustomError.svelte';
 	export let data: PageData;
 	onMount(() => {
 		CustomToast.showPromise({
@@ -65,9 +66,5 @@
 		</div>
 	</div>
 {:catch error}
-	<div class="flex items-center justify-center py-12">
-		<div class="rounded-lg border-2 border-red-500 bg-[#1b2838] px-8 py-6 shadow-lg">
-			<p class="font-semibold text-red-400">Error loading users: {error.message}</p>
-		</div>
-	</div>
+	<CustomError {error} message="Error loading users" />
 {/await}
