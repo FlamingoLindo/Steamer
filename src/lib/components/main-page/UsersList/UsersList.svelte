@@ -5,7 +5,7 @@
 	import Pagination from '../../shared/Pagination/Pagination.svelte';
 	import UsersListSkeleton from '../../skeletons/UsersListSkeleton/UsersListSkeleton.svelte';
 	import CustomError from '$lib/components/CustomError/CustomError.svelte';
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 	onMount(() => {
 		CustomToast.showPromise({
 			promise: data.usersPromise,
@@ -62,7 +62,7 @@
 					</a>
 				{/each}
 			</div>
-			<Pagination totalPages={response.data.pagination.total_pages}></Pagination>
+			<Pagination totalPages={response.data.pagination.total_pages} />
 		</div>
 	</div>
 {:catch error}

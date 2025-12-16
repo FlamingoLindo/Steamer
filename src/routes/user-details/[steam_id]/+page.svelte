@@ -1,3 +1,5 @@
+<!-- TODO https://store.steampowered.com/api/appdetails?appids=220 -->
+
 <script lang="ts">
 	import CustomError from '$lib/components/CustomError/CustomError.svelte';
 	import Avatar from '$lib/components/user-details/Avatar/Avatar.svelte';
@@ -5,7 +7,7 @@
 	import UserName from '$lib/components/user-details/UserName/UserName.svelte';
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 </script>
 
 {#await data.userPromise}

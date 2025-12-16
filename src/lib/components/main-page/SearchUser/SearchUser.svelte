@@ -2,9 +2,9 @@
 	import type { CreationResponse } from '$lib/api/dto/CreateUserDTO';
 	import { userService } from '$lib/service/userService';
 	import { CustomToast } from '$lib/toast/custom.toast';
-	let steam_id: string = '';
-	let errorMessage: string = '';
-	let isLoading: boolean = false;
+	let steam_id = $state('');
+	let errorMessage = $state('');
+	let isLoading = $state(false);
 
 	async function handleSearch() {
 		errorMessage = '';
@@ -77,7 +77,7 @@
 			class="rounded-lg border-2 p-2 transition-colors {errorMessage
 				? 'border-red-500 focus:border-red-600'
 				: 'border-gray-600 focus:border-blue-500'}"
-			onkeydown={async (e) => {
+			onkeydown={(e) => {
 				if (e.key !== 'Enter') return;
 				handleSearch();
 			}}
