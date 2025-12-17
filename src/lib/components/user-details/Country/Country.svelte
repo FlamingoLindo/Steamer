@@ -10,5 +10,5 @@
 	src={user_country.flag_url}
 	alt={user_country.countryname}
 	title={user_country.countryname}
-	class="h-8 w-8 shadow-lg transition-all duration-300 group-hover:border-[#171a21]"
+	class="h-10 w-14 shadow-lg transition-all duration-300 group-hover:border-[#171a21]"
 />

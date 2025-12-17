@@ -1,5 +1,5 @@
 <script lang="ts">
-	const { username }: { username: string } = $props();
+	const { username, pf_url }: { username: string; pf_url: string } = $props();
 </script>
 
-<h1>{username}</h1>
+<h1><a href={pf_url} target="_blank">{username}</a></h1>
