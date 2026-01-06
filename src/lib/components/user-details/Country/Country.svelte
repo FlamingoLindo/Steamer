@@ -5,10 +5,12 @@
 	const user_country = getCountry(country);
 </script>
 
-<text>{user_country.countryname}</text>
-<img
-	src={user_country.flag_url}
-	alt={user_country.countryname}
-	title={user_country.countryname}
-	class="h-10 w-14 shadow-lg transition-all duration-300 group-hover:border-[#171a21]"
-/>
+<div class="flex items-center gap-4">
+	<img
+		src={user_country.flag_url}
+		alt={user_country.countryname}
+		title={user_country.countryname}
+		class="h-10 w-14 shadow-sm shadow-black/50"
+	/>
+	<text class="font-semibold">{user_country.countryname}</text>
+</div>

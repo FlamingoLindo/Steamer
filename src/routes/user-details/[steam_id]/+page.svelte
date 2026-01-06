@@ -1,4 +1,5 @@
 <!-- TODO https://store.steampowered.com/api/appdetails?appids=220 -->
+<!-- TODO get user steam level  https://steamcommunity.com/profiles/76561198088346306/?html=1 -->
 
 <script lang="ts">
 	import CustomError from '$lib/components/CustomError/CustomError.svelte';
@@ -14,16 +15,40 @@
 </script>
 
 {#await data.userPromise}
-	<text>Loading...</text>
+	<div class="flex items-center justify-center py-8">
+		<p class="text-lg text-white">Loading...</p>
+	</div>
 {:then response}
 	{@const user = response.data.user}
 
-	<UserName username={user.username} pf_url={user.pf_url} />
-	<Avatar {user} />
-	<Country country={user.country} />
-	<Visibility visibility={user.visibility} />
-	<SteamCreatedAt steam_created_at={user.steam_created_at} />
-	<CurrentGame current_game={user.current_game} />
+	<div class="flex items-center justify-center py-8">
+		<div class="w-full max-w-5xl px-4">
+			<div class="mb-8 rounded-xl border-2 border-[#2a475e] bg-[#c7d5e0] p-8 shadow-2xl">
+				<div class="flex items-center gap-4">
+					<Avatar {user} />
+					<UserName username={user.username} pf_url={user.pf_url} />
+
+					{#if user.visibility !== 1 && user.country}
+						<div class="ml-auto">
+							<Country country={user.country} />
+						</div>
+					{/if}
+				</div>
+
+				<div class="mt-4 flex justify-center">
+					<Visibility visibility={user.visibility} />
+				</div>
+
+				{#if user.visibility !== 1}
+					<SteamCreatedAt steam_created_at={user.steam_created_at} />
+
+					<div class="mt-4 flex flex-col items-center justify-center">
+						<CurrentGame current_game={user.current_game} />
+					</div>
+				{/if}
+			</div>
+		</div>
+	</div>
 {:catch error}
 	<CustomError {error} message="Error loading user" />
 {/await}

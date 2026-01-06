@@ -4,4 +4,9 @@
 	const { visibility }: { visibility: number } = $props();
 </script>
 
-<h1>{visibility === 1 ? 'Private' : 'Public'}</h1>
+{#if visibility === 1}
+	<div>
+		<p class="font-semibold">Private Profile</p>
+		<p class="text-sm">This user's profile is set to private</p>
+	</div>
+{/if}

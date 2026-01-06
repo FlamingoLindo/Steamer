@@ -10,5 +10,5 @@
 	src={user.avatar}
 	alt={user.username}
 	title={user.steam_id}
-	class="h-16 w-16 ring-2 {ringClass} rounded-xs"
+	class="h-20 w-20 ring-3 {ringClass} rounded-xs"
 />

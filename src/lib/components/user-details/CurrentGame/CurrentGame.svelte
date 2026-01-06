@@ -3,6 +3,6 @@
 </script>
 
 {#if current_game}
-	<h1>Currently playing:</h1>
-	<h1>{current_game}</h1>
+	<h1 class="font-semibold">Currently playing:</h1>
+	<text class="text-lg font-bold mt-2">{current_game}</text>
 {/if}
