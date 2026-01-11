@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { User } from '$lib/api/dto/GetUserDTO';
+	import type { User } from '$lib/api/dto/user/GetUserDTO';
 	import { getRingClass } from '$lib/utils/scripts/user/getRingClass.script';
 
 	const { user }: { user: User } = $props();

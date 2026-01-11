@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { CreationResponse } from '$lib/api/dto/CreateUserDTO';
+	import type { CreationResponse } from '$lib/api/dto/user/CreateUserDTO';
 	import { userService } from '$lib/service/userService';
 	import { CustomToast } from '$lib/toast/custom.toast';
 	let steam_id = $state('');

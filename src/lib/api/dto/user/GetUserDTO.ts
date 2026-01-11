@@ -13,4 +13,5 @@ export interface User {
 	persona_state: number;
 	visibility: number;
 	steam_created_at: Date;
+	gameid: string;
 }

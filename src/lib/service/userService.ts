@@ -1,6 +1,6 @@
-import type { CreateUserDTO } from '$lib/api/dto/CreateUserDTO';
-import type { GetUserResponseDTO } from '$lib/api/dto/GetUserDTO';
-import type { ListUsersResponseDTO } from '$lib/api/dto/ListUsersDTO';
+import type { CreateUserDTO } from '$lib/api/dto/user/CreateUserDTO';
+import type { GetUserResponseDTO } from '$lib/api/dto/user/GetUserDTO';
+import type { ListUsersResponseDTO } from '$lib/api/dto/user/ListUsersDTO';
 import { userApi } from '$lib/api/users';
 
 export const userService = {

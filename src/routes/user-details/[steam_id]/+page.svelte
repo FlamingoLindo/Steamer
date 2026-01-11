@@ -46,6 +46,34 @@
 						<CurrentGame current_game={user.current_game} />
 					</div>
 				{/if}
+
+				{#if user.gameid}
+					{#await data.gamePromise}
+						<div class="flex items-center justify-center py-8">
+							<p class="text-lg text-white">Loading game...</p>
+						</div>
+					{:then response}
+						{#if response}
+							{@const game = response.data.game}
+							{console.log('User gameid:', user.gameid)}
+							{console.log('Game response:', response)}
+							{console.log('Game data:', game)}
+
+							<img src={game.header_image} alt={game.name} title={game.appid} />
+							<text>{game.short_description}</text>
+
+							{#each game.screenshots as screenshot}
+								<img src={screenshot} alt={screenshot} />
+							{/each}
+						{:else}
+							<p class="text-white">No game data available</p>
+						{/if}
+					{:catch error}
+						<p class="text-red-500">Error loading game: {error.message}</p>
+					{/await}
+				{:else}
+					<p class="mt-4 text-white">User is not currently playing a game</p>
+				{/if}
 			</div>
 		</div>
 	</div>

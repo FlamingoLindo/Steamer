@@ -27,7 +27,8 @@
         "Faso",
         "Barthelemy",
         "Eustatius",
-        "Bouvet"
+        "Bouvet",
+        "gameid"
     ],
     "ignoreWords": [],
     "import": [],
