@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { goto } from '$app/navigation';
 	import type { CreationResponse } from '$lib/api/dto/user/CreateUserDTO';
 	import { userService } from '$lib/service/userService';
 	import { CustomToast } from '$lib/toast/custom.toast';
@@ -25,8 +26,7 @@
 			const addResponse = await userService.addUser({ steam_id });
 			if (addResponse.status === 409) {
 				const getUserResponse = await userService.getUser(steam_id);
-				// TODO got to user profile page
-				console.log(getUserResponse.data);
+				goto(`/user-details/${getUserResponse.data.user.steam_id}`);
 				steam_id = '';
 				return getUserResponse.data;
 			}
@@ -45,6 +45,7 @@
 					message: `${userData.data.user.username} added successfully!`,
 					position: 'top-right'
 				});
+				goto(`/user-details/${userData.data.user.steam_id}`);
 			}
 			steam_id = '';
 		} catch (error: any) {

@@ -17,4 +17,5 @@ export interface User {
 	username: string;
 	steam_id?: string;
 	current_game?: string;
+	gameid?: string
 }

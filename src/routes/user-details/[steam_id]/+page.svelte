@@ -3,6 +3,7 @@
 
 <script lang="ts">
 	import CustomError from '$lib/components/CustomError/CustomError.svelte';
+	import GameCarousel from '$lib/components/shared/GameCarousel/GameCarousel.svelte';
 	import Avatar from '$lib/components/user-details/Avatar/Avatar.svelte';
 	import Country from '$lib/components/user-details/Country/Country.svelte';
 	import CurrentGame from '$lib/components/user-details/CurrentGame/CurrentGame.svelte';
@@ -55,16 +56,11 @@
 					{:then response}
 						{#if response}
 							{@const game = response.data.game}
-							{console.log('User gameid:', user.gameid)}
-							{console.log('Game response:', response)}
-							{console.log('Game data:', game)}
 
 							<img src={game.header_image} alt={game.name} title={game.appid} />
 							<text>{game.short_description}</text>
 
-							{#each game.screenshots as screenshot}
-								<img src={screenshot} alt={screenshot} />
-							{/each}
+							<GameCarousel screenshots={game.screenshots} />
 						{:else}
 							<p class="text-white">No game data available</p>
 						{/if}
