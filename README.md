@@ -249,7 +249,3 @@ interface User {
 - **GameHeader**: Game information header
 - **GameCarousel**: Carousel for browsing games
 - **Pagination**: Pagination controls
-
-## License
-
-Private project - not licensed for public use
