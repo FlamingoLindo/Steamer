@@ -1,6 +1,7 @@
 import type { CreateUserDTO } from '$lib/api/dto/user/CreateUserDTO';
 import type { GetUserResponseDTO } from '$lib/api/dto/user/GetUserDTO';
 import type { ListUsersResponseDTO } from '$lib/api/dto/user/ListUsersDTO';
+import type { UpdateUserResponseDTO } from '$lib/api/dto/user/UpdateUserResponseDTO';
 import { userApi } from '$lib/api/users';
 
 export const userService = {
@@ -15,5 +16,9 @@ export const userService = {
 	async listUsers(page?: number) {
 		const queryParams = page ? { page } : undefined;
 		return userApi.listUsers<ListUsersResponseDTO>('users', queryParams);
+	},
+
+	async updateUser(steam_id: string) {
+		return userApi.updateUser<UpdateUserResponseDTO>(`users/user/${steam_id}`, steam_id);
 	}
 };

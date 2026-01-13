@@ -4,6 +4,9 @@ import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ params }) => {
 	const steam_id = params.steam_id;
+
+	await userService.updateUser(steam_id);
+
 	const userPromise = userService.getUser(steam_id);
 
 	return {

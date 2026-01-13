@@ -32,7 +32,7 @@
 				</div>
 			</div>
 			<div
-				class="grid grid-cols-3 gap-6 rounded-xl border-2 border-[#2a475e] bg-[#c7d5e0] p-6 shadow-xl"
+				class="grid grid-cols-2 gap-6 rounded-xl border-2 border-[#2a475e] bg-[#c7d5e0] p-6 shadow-xl"
 			>
 				{#each response.data.users as user}
 					<a

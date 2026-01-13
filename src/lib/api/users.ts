@@ -67,6 +67,10 @@ class UserApi {
 	): Promise<ApiResponse<T>> {
 		return this.request<T>(endpoint, { method: 'GET' }, queryParams);
 	}
+
+	async updateUser<T>(endpoint: string, steam_id: string): Promise<ApiResponse<T>> {
+		return this.request<T>(endpoint, { method: 'PATCH' }, { steam_id })
+	}
 }
 
 export const userApi = new UserApi(PUBLIC_API_URL);
