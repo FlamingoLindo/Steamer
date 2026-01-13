@@ -12,5 +12,5 @@
 		title={user_country.countryname}
 		class="h-10 w-14"
 	/>
-	<text class="font-semibold">{user_country.countryname}</text>
+	<p class="font-semibold">{user_country.countryname}</p>
 </div>

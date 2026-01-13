@@ -4,21 +4,21 @@
 <script lang="ts">
 	import CustomError from '$lib/components/CustomError/CustomError.svelte';
 	import GameCarousel from '$lib/components/shared/GameCarousel/GameCarousel.svelte';
+	import GameHeader from '$lib/components/shared/GameHeader/GameHeader.svelte';
 	import Avatar from '$lib/components/user-details/Avatar/Avatar.svelte';
 	import Country from '$lib/components/user-details/Country/Country.svelte';
 	import CurrentGame from '$lib/components/user-details/CurrentGame/CurrentGame.svelte';
 	import SteamCreatedAt from '$lib/components/user-details/SteamCreatedAt/SteamCreatedAt.svelte';
 	import UserName from '$lib/components/user-details/UserName/UserName.svelte';
 	import Visibility from '$lib/components/user-details/Visibility/Visibility.svelte';
+	import UserDetailsSkeleton from '$lib/components/skeletons/UserDetailsSkeleton/UserDetailsSkeleton.svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
 </script>
 
 {#await data.userPromise}
-	<div class="flex items-center justify-center py-8">
-		<p class="text-lg text-white">Loading...</p>
-	</div>
+	<UserDetailsSkeleton />
 {:then response}
 	{@const user = response.data.user}
 
@@ -44,31 +44,12 @@
 					<SteamCreatedAt steam_created_at={user.steam_created_at} />
 
 					<div class="mt-4 flex flex-col items-center justify-center">
-						<CurrentGame current_game={user.current_game} />
+						<CurrentGame
+							current_game={user.current_game}
+							gameid={user.gameid}
+							gamePromise={data.gamePromise}
+						/>
 					</div>
-				{/if}
-
-				{#if user.gameid}
-					{#await data.gamePromise}
-						<div class="flex items-center justify-center py-8">
-							<p class="text-lg text-white">Loading game...</p>
-						</div>
-					{:then response}
-						{#if response}
-							{@const game = response.data.game}
-
-							<img src={game.header_image} alt={game.name} title={game.appid} />
-							<text>{game.short_description}</text>
-
-							<GameCarousel screenshots={game.screenshots} />
-						{:else}
-							<p class="text-white">No game data available</p>
-						{/if}
-					{:catch error}
-						<p class="text-red-500">Error loading game: {error.message}</p>
-					{/await}
-				{:else}
-					<p class="mt-4 text-white">User is not currently playing a game</p>
 				{/if}
 			</div>
 		</div>

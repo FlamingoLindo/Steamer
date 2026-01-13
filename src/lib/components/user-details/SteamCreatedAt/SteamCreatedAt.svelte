@@ -13,4 +13,4 @@
 </script>
 
 <h1 class="font-semibold">Account created at:</h1>
-<text class="font-bold">{formatted}</text>
+<p class="font-bold">{formatted}</p>
